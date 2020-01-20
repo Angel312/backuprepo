@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.thecrew" version="0.0.50a" name="[COLOR deeppink]THE CREW[/COLOR]" provider-name="The Crew">
+<addon id="plugin.video.thecrew" version="0.0.64" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.thecrew" />
@@ -15,13 +15,10 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">The Crew is a team of highly skilled talent that provides you with the best of the best.</summary>
-        <description lang="en">Many come, Many go. The true and dedicated are here. Enjoy Your Entertainment.</description>
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum></forum>
-        <website></website>
-        <source></source>
         <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
         <assets>
             <icon>icon.png</icon>
@@ -30,49 +27,61 @@
             <screenshot>resources/art/ss/2.png</screenshot>
             <screenshot>resources/art/ss/3.png</screenshot>
         </assets>
-        <news></news>
     </extension>
 </addon>
 
-<addon id="script.module.thecrew" name="[COLOR deeppink]THE CREW MODULE[/COLOR]" version="0.0.53" provider-name="The Crew">
+<addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="0.0.64" provider-name="The Crew">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup4"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
         <platform>all</platform>
-        <summary lang="en">The Crew Module</summary>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
         <assets>
-          <icon>icon.png</icon>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
 
-<addon id="script.thecrew.artwork" version="0.0.17" name="[COLOR deeppink]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.artwork" version="0.0.26" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-        <summary>The Crew Artwork</summary>
-        <description></description>
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
         <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
         <assets>
-          <icon>icon.png</icon>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
 
-<addon id="script.thecrew.metadata" version="0.0.2a" name="[COLOR deeppink]THE CREW METADATA[/COLOR]" provider-name="The Crew">
+<addon id="script.thecrew.metadata" version="0.0.5" name="[COLOR orchid]THE CREW METADATA[/COLOR]" provider-name="The Crew">
     <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-        <summary>The Crew</summary>
-        <description></description>
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
         <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 </addons>
